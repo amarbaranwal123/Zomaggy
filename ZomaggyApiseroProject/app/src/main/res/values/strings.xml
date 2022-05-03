@@ -1,0 +1,41 @@
+<resources>
+
+
+    <string name="menu_home">About Us</string>
+    <string name="menu_gallery">Tableau Dashboard</string>
+    <string name="menu_slideshow">Delivery</string>
+
+    <string name="app_name">Zomaggy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Zomaggy</string>
+    <string name="nav_header_subtitle">Apisero Mini Project</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Remove My Profile</string>
+    <string name="logoutp">Log Out</string>
+
+    <string name="aboutus">About Us</string>
+    <string name="login">login</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="contactus">Contact Us</string>
+
+    <string name="send">Send</string>
+
+    <string name="share">Share</string>
+
+    <string name="booki">BookI</string>
+    <string name="welcome_back">Welcome to Zomaggy</string>
+    <string name="read_it_together">Lets take a way ahead</string>
+    <string name="skip">.</string>
+    <string name="login1">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forget_password">Forget Password.?</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="gamification">Gamification</string>
+
+    <string name="remove">Remove User Profile</string>
+
+    <string name="logout">Log Out</string>
+</resources>

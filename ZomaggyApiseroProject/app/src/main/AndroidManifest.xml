@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zomaggyapiseroproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ZomaggyApiseroProject">
+        <activity
+            android:name=".FitnessActivity"
+            android:exported="false" android:parentActivityName=".FitnessActivity"/>
+        <activity
+            android:name=".FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CityActivity"
+            android:exported="false"
+            android:parentActivityName=".CityActivity" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false"
+            android:parentActivityName=".AboutUs" />
+        <activity
+            android:name=".TopPicks"
+            android:exported="false"
+            android:parentActivityName=".TopPicks" />
+        <activity
+            android:name=".TopRestaurant"
+            android:exported="false"
+            android:parentActivityName=".TopRestaurant" />
+        <activity
+            android:name=".OrderHistory"
+            android:exported="false"
+            android:parentActivityName=".OrderHistory" />
+        <activity
+            android:name=".Gami"
+            android:exported="false"
+            android:parentActivityName=".Gami" />
+        <activity
+            android:name=".Recommendation"
+            android:exported="false"
+            android:parentActivityName=".Recommendation" />
+        <activity
+            android:name=".AvailableItem"
+            android:exported="false"
+            android:parentActivityName=".AvailableItem" />
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false"
+            android:parentActivityName=".WebViewActivity" />
+        <activity
+            android:name=".DeleteActivity"
+            android:exported="false"
+            android:parentActivityName=".DeleteActivity" />
+        <activity
+            android:name=".ConfirmChangePassword"
+            android:exported="false"
+            android:parentActivityName=".ConfirmChangePassword" />
+        <activity
+            android:name=".PasswordChange"
+            android:exported="false"
+            android:parentActivityName=".PasswordChange" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:parentActivityName=".SignUpActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ZomaggyApiseroProject.NoActionBar" />
+    </application>
+
+</manifest>

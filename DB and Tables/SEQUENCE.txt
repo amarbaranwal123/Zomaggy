@@ -1,0 +1,7 @@
+create or replace sequence seq_1 start = 12345 increment = 1;
+
+drop sequence seq_1;
+
+INSERT INTO "APPTB" values ("seq_1.NEXTVAL",'AMAR','amar@gmail.com','9140776548','123','Varanasi');
+
+
